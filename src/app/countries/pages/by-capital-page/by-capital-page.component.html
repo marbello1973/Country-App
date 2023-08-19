@@ -1,1 +1,17 @@
-<p>by-capital-page works!</p>
+<h2>Por capital</h2>
+<hr />
+
+<div class="row">
+  <div class="col">
+    <!--componente SearchBox  -->
+    <shared-search-box (onValue)="searchByCapital($event)"></shared-search-box>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <!--tabla de resultados  -->
+      <hr />
+      <countries-table [countries]="countries"></countries-table>
+    </div>
+  </div>
+</div>
