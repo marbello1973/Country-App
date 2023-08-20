@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ByRegionPageComponent,
   },
   {
-    path: 'country/:id',
+    path: 'by/:id',
     component: CountryPageComponent,
   },
   {
